@@ -1,0 +1,17 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button id="nav_btn" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <li style="margin-top: 8px;"><a [routerLink]="['/home']"> Home</a></li>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul style="float: right;" class="navbar-nav mr-auto">
+            <li style="margin-top: 8px; margin-right: 30px;"><a [routerLink]="['/product']"> PRODUCT</a></li>
+            <li style="margin-top: 8px; margin-right: 30px;"><a [routerLink]="['/issue']"> ISSUE</a></li>
+            <li style="margin-top: 8px; margin-right: 30px;"><a [routerLink]="['/metric']"> METRIC</a></li>
+        </ul>
+    </div>
+
+</nav>
