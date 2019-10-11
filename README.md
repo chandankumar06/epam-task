@@ -26,9 +26,13 @@
 
 * **Steps to run the code :**
     - Open two different cmd from two different folders( i.e "Client" and "Server")
-    - Run the below command on cmd
-    - python run.py (To run on flask server) [http://localhost:3000]
-    - ng serve (To start UI) [http://localhost:4200]
+    - Run the below command on CMD
+   - In Server folder cmd
+        -  pip install -r requirements.txt
+        -  python run.py (To run on flask server) [http://localhost:3000]
+    - In Client folder cmd
+        - npm install
+        - ng serve (To start UI) [http://localhost:4200] 
     - Open browser and paste above url and test
 
 
